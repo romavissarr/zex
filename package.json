@@ -1,0 +1,43 @@
+{
+  "name": "zex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "romavissar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romavissarr/zex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/romavissarr/zex/issues"
+  },
+  "bin": {
+    "zex": "bin/zex"
+  },
+  "keywords": [
+    "discord.js",
+    "typescript",
+    "javascript",
+    "cli",
+    "zex",
+    "@rom/zex",
+    "@rom.avissar/zex",
+    "@romavissar/zex"
+  ],
+  "dependencies": {
+    "arg": "^5.0.0",
+    "chalk": "^4.1.1",
+    "esm": "^3.2.25",
+    "execa": "^5.1.1",
+    "inquirer": "^8.1.1",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.4",
+    "ts-node": "^10.0.0",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.4"
+  }
+}
