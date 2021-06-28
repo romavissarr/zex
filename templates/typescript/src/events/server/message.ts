@@ -10,10 +10,10 @@ export const event: Event = {
         if (
             message.author.bot ||
             !message.guild ||
-            !message.content.startsWith(client.Zex.prefix)
+            !message.content.startsWith(client.Zexo.prefix)
         ) return;
 
-        const args = message.content.slice(client.Zex.prefix.length).trim().split(/ +/g);
+        const args = message.content.slice(client.Zexo.prefix.length).trim().split(/ +/g);
 
         const baseCommand = args.shift().toLowerCase();
 
